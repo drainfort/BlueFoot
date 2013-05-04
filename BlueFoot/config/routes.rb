@@ -6,7 +6,7 @@ BlueFoot::Application.routes.draw do
 
   match '/signup', to: 'index#signup', :as => 'signup'
 
-  match '/about', to: 'index#about', :as => 'abour'
+  match '/about', to: 'index#about', :as => 'about'
 
   match '/help', to: 'index#help', :as => 'help'
 
